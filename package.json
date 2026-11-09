@@ -1,0 +1,54 @@
+{
+  "name": "dsh-skill-quickpick",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Skill quick-pick panel for DeepSeek Harness: one click to list the session's skills in Chinese, insert /name into the draft — never auto-sends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-isolated.mjs"
+  },
+  "files": [
+    "assets/",
+    "client.js",
+    "cordis.patch.yml",
+    "index.js",
+    "test-isolated.mjs"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection"
+      ],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "skills",
+    "quickpick",
+    "panel"
+  ],
+  "author": "fxdfx (https://github.com/fxdfx)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fxdfx/dsh-skill-quickpick.git"
+  },
+  "homepage": "https://github.com/fxdfx/dsh-skill-quickpick#readme",
+  "bugs": {
+    "url": "https://github.com/fxdfx/dsh-skill-quickpick/issues"
+  },
+  "peerDependencies": {},
+  "license": "MIT"
+}

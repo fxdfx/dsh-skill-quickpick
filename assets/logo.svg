@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="dsh-skill-quickpick">
+  <defs>
+    <linearGradient id="sqp-bg" x1="10" y1="6" x2="88" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d7cfe"/>
+      <stop offset="0.55" stop-color="#6c5cff"/>
+      <stop offset="1" stop-color="#a04dff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="22" fill="url(#sqp-bg)"/>
+  <!-- 面板里的三行技能：圆点 + 横条 -->
+  <circle cx="22" cy="31" r="3.1" fill="#ffffff" fill-opacity="0.96"/>
+  <rect x="29" y="28" width="20" height="6" rx="3" fill="#ffffff" fill-opacity="0.96"/>
+  <circle cx="22" cy="46" r="3.1" fill="#ffffff" fill-opacity="0.80"/>
+  <rect x="29" y="43" width="16" height="6" rx="3" fill="#ffffff" fill-opacity="0.80"/>
+  <circle cx="22" cy="61" r="3.1" fill="#ffffff" fill-opacity="0.64"/>
+  <rect x="29" y="58" width="12" height="6" rx="3" fill="#ffffff" fill-opacity="0.64"/>
+  <!-- 闪电：一键插进草稿 -->
+  <path d="M66 21 L54 50 L63 50 L58 75 L79 44 L67 44 Z" fill="#ffffff"/>
+</svg>
